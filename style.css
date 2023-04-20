@@ -122,3 +122,10 @@ span{
     text-transform: uppercase;
     font-family: 'Courier New', Courier, monospace;
 }
+@media (max-width:850) {
+#card-section{
+    grid-template-columns: repeat(3,1fr);
+}
+
+   
+}

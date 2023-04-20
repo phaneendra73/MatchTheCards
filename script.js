@@ -14,15 +14,15 @@ let cardsArray = [
 
     {
         'name': 'pig',
-        'img': '/images/pig.png',
+        'img': './images/pig.png',
     },
     {
         'name': 'panda',
-        'img': '/images/panda.png',
+        'img': './images/panda.png',
     },
     {
         'name': 'lion',
-        'img': '/images/lion.png',
+        'img': './images/lion.png',
     }
 ];
 
