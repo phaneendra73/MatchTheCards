@@ -15,9 +15,26 @@ body{
     flex-direction: column;
     gap: 5rem;
     height: 100vh;
-    background-color:black;
+    background-color:rgb(0, 0, 0);
 
 }
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 0;
+    list-style: none;
+    color: #4deaff;
+  }
+ #level1,#level2,#level3{
+    color: rgb(255, 255, 42);
+    background-color: black;
+    margin-left: 40px;
+    width: 150px;
+    font-size: 25px;
+ }
 
 h1{
    color: #4deaff;
@@ -122,9 +139,25 @@ span{
     text-transform: uppercase;
     font-family: 'Courier New', Courier, monospace;
 }
-@media (max-width:850) {
+@media (max-width:850px) {
+    body{
+        height: 80vh;
+        
+    }
+    .card,
+.back-card,
+.front-card {
+    height: 70px;
+    width: 70px;
+}
+h1{
+    font-size: 30px;
+
+}
 #card-section{
-    grid-template-columns: repeat(3,1fr);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1rem;
 }
 
    

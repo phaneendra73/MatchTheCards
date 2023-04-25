@@ -23,8 +23,20 @@ let cardsArray = [
     {
         'name': 'lion',
         'img': './images/lion.png',
+    },
+    {
+        'name': 'dog',
+        'img': './images/dog.png',
+
+    },
+    {
+        'name': 'cat',
+        'img': './images/cat.png',
+
     }
 ];
+
+
 
 
 const parentDiv = document.querySelector('#card-section');
@@ -55,7 +67,7 @@ let counter = 0;
 const youwin = () => {
     let card_selected = document.querySelectorAll('.card_match')
     console.log(card_selected)
-    if (card_selected.length >= 18) {
+    if (card_selected.length >= 24) {
         const result = document.getElementById("result");
         result.style.display = "block";
         const cards = document.getElementById("card-section");
